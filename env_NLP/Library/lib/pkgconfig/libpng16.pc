@@ -1,0 +1,12 @@
+prefix=C:/Users/MrJel/Desktop/Felix/Gitthis/bitacora-diarIA/env_NLP/Library
+exec_prefix=C:/Users/MrJel/Desktop/Felix/Gitthis/bitacora-diarIA/env_NLP/Library
+libdir=C:/Users/MrJel/Desktop/Felix/Gitthis/bitacora-diarIA/env_NLP/Library/lib
+includedir=C:/Users/MrJel/Desktop/Felix/Gitthis/bitacora-diarIA/env_NLP/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}

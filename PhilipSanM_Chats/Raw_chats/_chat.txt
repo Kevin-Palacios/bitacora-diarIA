@@ -1,0 +1,570 @@
+[12/01/23, 4:03:12 p.m.] Kemonitooo Escom: ‎Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+‎[12/01/23, 4:03:12 p.m.] FelipeSan: ‎image omitted
+‎[12/01/23, 4:03:13 p.m.] FelipeSan: ‎image omitted
+‎[12/01/23, 4:03:14 p.m.] FelipeSan: ‎image omitted
+‎[12/01/23, 4:03:14 p.m.] FelipeSan: ‎image omitted
+‎[12/01/23, 4:03:15 p.m.] FelipeSan: ‎image omitted
+‎[12/01/23, 4:03:15 p.m.] FelipeSan: ‎image omitted
+‎[12/01/23, 4:03:16 p.m.] FelipeSan: ‎image omitted
+‎[12/01/23, 4:03:16 p.m.] FelipeSan: ‎image omitted
+[12/01/23, 4:03:34 p.m.] FelipeSan: https://app.smartsheet.com/b/form/bb5b7858997645688c6f79b0daaf6333
+[12/01/23, 4:03:49 p.m.] FelipeSan: https://encuestas.deloittemx.com/Answer/AnswerPoll.aspx?token=eE/OJ44mVBv4WUZzaiIHTQ==
+[12/01/23, 6:52:53 p.m.] Kemonitooo Escom: Muchas gracias pipeeee
+[07/03/23, 9:38:15 a.m.] FelipeSan: class Solution(object):
+
+    
+
+    def topKFrequent(self, nums, k):
+        numeros={}
+        for i in nums:
+            if(i not in numeros):
+                numeros.update({i:1})
+            else:
+                numeros.update({i:numeros[i]+1})
+        veces=numeros.values()
+        print(numeros)
+        def obtenerMayor(arreglo, k):
+            mayor=[]
+            for i in range(k):
+                mayor.append(arreglo[0])
+                pos=0
+                for j in range(1, len(arreglo)):
+                    if(arreglo[j]>mayor[i]):
+                        mayor[i]=arreglo[j]
+                        pos=j
+                arreglo.pop(pos)
+            return mayor
+        mayores = obtenerMayor(veces, k)
+        print(mayores)
+        respuesta=[]
+        for i in mayores:
+            respuesta.append(list(numeros.keys())[list(numeros.values()).index(i)])
+            del numeros[list(numeros.keys())[list(numeros.values()).index(i)]]
+        #print(list(numeros.keys())[list(numeros.values()).index(mayores[0])])
+        print(respuesta)
+        return respuesta
+[23/03/23, 6:09:29 p.m.] FelipeSan: Como le hiciste de la lista 1 del 37 -“ 42 ;v?
+‎[23/03/23, 7:24:58 p.m.] Kemonitooo Escom: ‎image omitted
+‎[23/03/23, 7:25:22 p.m.] Kemonitooo Escom: ‎image omitted
+[23/03/23, 7:25:41 p.m.] Kemonitooo Escom: Las que quedaron cuadraticas si las hice con symbolab
+[23/03/23, 9:03:59 p.m.] FelipeSan: Gracias Kemonitooo
+[26/03/23, 6:40:29 p.m.] FelipeSan: Las lista 2 esta bn tardada;,v
+[26/03/23, 6:41:12 p.m.] Kemonitooo Escom: Simon, ta bien fea
+[26/03/23, 6:41:46 p.m.] Kemonitooo Escom: https://www.youtube.com/watch?v=mo-ab14c7_U&list=PLiUWMKqtS23QSopGy6g-2JcBwaW5Wndgi&index=18&ab_channel=MathTutor2
+[26/03/23, 6:42:07 p.m.] Kemonitooo Escom: Aqui creeo estan resueltos casi todas las listas
+[26/03/23, 6:42:18 p.m.] Kemonitooo Escom: Lo use para la ultima y me sirvio
+[26/03/23, 6:43:11 p.m.] FelipeSan: Gracias
+[26/03/23, 6:43:57 p.m.] Kemonitooo Escom: Sis igual cualquier duda aca ando owo
+‎[26/03/23, 6:51:27 p.m.] FelipeSan: ‎sticker omitted
+[26/03/23, 8:17:57 p.m.] FelipeSan: chale tambn la lista 4 esta bn tardadaaaaaaa
+[26/03/23, 8:19:40 p.m.] Kemonitooo Escom: Maomenos, nomas los primeros que tienen un buen de incisos jaja
+[26/03/23, 8:19:46 p.m.] FelipeSan: si vlv
+‎[27/03/23, 8:44:31 a.m.] Kemonitooo Escom: Lista4_.pdf • ‎21 pages ‎document omitted
+[27/03/23, 10:44:58 a.m.] FelipeSan: xd sólo quería dos ejercicios
+[27/03/23, 10:45:03 a.m.] FelipeSan: Pero gracias yomono
+[30/03/23, 7:28:57 a.m.] FelipeSan: https://icpc.global/ICPCID/0TQ3OZF0U4B6
+[03/05/23, 12:26:38 p.m.] FelipeSan: https://icpc.global
+[03/05/23, 12:26:45 p.m.] FelipeSan: Date de Alta mi kemono
+[05/05/23, 5:39:31 p.m.] FelipeSan: puedo ver tus ejercicios de mate, para corroborar ? :v
+‎[05/05/23, 8:33:53 p.m.] Kemonitooo Escom: Tareas MatesAvanzadas 2P.pdf • ‎5 pages ‎document omitted
+[05/05/23, 8:34:43 p.m.] FelipeSan: gracias ❤️
+[05/05/23, 8:38:21 p.m.] Kemonitooo Escom: No es na
+‎[05/05/23, 8:38:32 p.m.] Kemonitooo Escom: ‎sticker omitted
+[07/05/23, 10:38:37 a.m.] FelipeSan: La 4 es -2 ;v
+[07/05/23, 11:21:17 a.m.] Kemonitooo Escom: Mucha razón pipe
+[07/05/23, 11:21:21 a.m.] Kemonitooo Escom: Graciaaaas
+[08/05/23, 6:28:59 p.m.] FelipeSan: pasame estos datos uwuw
+‎[08/05/23, 6:29:01 p.m.] FelipeSan: ‎image omitted
+‎[08/05/23, 6:29:02 p.m.] FelipeSan: ‎image omitted
+[08/05/23, 6:31:41 p.m.] Kemonitooo Escom: Aaaa sisis voy wowo
+[08/05/23, 6:37:18 p.m.] Kemonitooo Escom: palacios.elizondo.kevin.antonio@gmail.com
+Kevin Antonio
+Palacios
+Elizondo
+14 de mayo de 2003
+2022630362
+4 semestres
+5578814991
+[08/05/23, 6:45:35 p.m.] FelipeSan: va
+[08/05/23, 6:52:11 p.m.] FelipeSan: ya quedo
+[08/05/23, 6:53:18 p.m.] FelipeSan: wacha q los datos anden bien en tu registro del icp
+[08/05/23, 6:53:28 p.m.] Kemonitooo Escom: Va orita veo
+[08/05/23, 6:53:42 p.m.] Kemonitooo Escom: Ya sabes en donde sera?
+[08/05/23, 6:53:43 p.m.] FelipeSan: si viene en informacion del contacto
+[08/05/23, 6:53:51 p.m.] FelipeSan: no xd
+[08/05/23, 6:54:17 p.m.] Kemonitooo Escom: Aaaa shales xd
+[09/05/23, 11:11:45 p.m.] FelipeSan: Si te llego el correo?
+[10/05/23, 9:43:23 a.m.] FelipeSan: Va a ser en la escum
+‎[10/05/23, 9:44:43 a.m.] FelipeSan: ‎image omitted
+[10/05/23, 12:29:26 p.m.] Kemonitooo Escom: Sis, ya ahi vi que estaba en el buchones++
+[10/05/23, 12:29:35 p.m.] Kemonitooo Escom: Vavavava gracias pipeeeee
+‎[11/05/23, 8:51:54 p.m.] FelipeSan: ‎image omitted
+‎[11/05/23, 8:59:40 p.m.] FelipeSan: CP.pdf • ‎9 pages ‎document omitted
+[11/05/23, 10:44:29 p.m.] Kemonitooo Escom: Nup
+[11/05/23, 10:44:36 p.m.] Kemonitooo Escom: Imprimimos algo
+[13/05/23, 12:34:56 p.m.] Kemonitooo Escom: Ya llegue pipeeeeee
+[13/05/23, 12:35:06 p.m.] FelipeSan: 👀
+[13/05/23, 12:35:11 p.m.] FelipeSan: Yo voy tarde ;’v
+[13/05/23, 12:35:41 p.m.] FelipeSan: Si ves q se forman para el registro te formas xd
+[13/05/23, 12:35:48 p.m.] Kemonitooo Escom: No digas qwq
+[13/05/23, 12:35:54 p.m.] Kemonitooo Escom: Va xd
+[13/05/23, 12:35:57 p.m.] FelipeSan: Voy en chunga
+[13/05/23, 12:36:09 p.m.] Kemonitooo Escom: Vavava corre corrw
+[13/05/23, 12:36:33 p.m.] FelipeSan: Te piden 300 varos xd pero ya vooooy
+[13/05/23, 12:36:57 p.m.] Kemonitooo Escom: Puuuu muy cierto, solo traigo 160 xd
+[13/05/23, 12:39:01 p.m.] FelipeSan: Chaa
+[13/05/23, 12:39:06 p.m.] FelipeSan: Ya voy xd
+[13/05/23, 12:39:30 p.m.] Kemonitooo Escom: Va xd
+[13/05/23, 12:56:44 p.m.] FelipeSan: Ya ando a 5 min
+[13/05/23, 1:00:50 p.m.] Kemonitooo Escom: Donde andas qwq
+[13/05/23, 1:01:03 p.m.] FelipeSan: Ontas? Corriendo para la entrada
+[13/05/23, 1:01:20 p.m.] FelipeSan: De la escum
+[13/05/23, 1:04:04 p.m.] Kemonitooo Escom: En el cic
+‎[13/05/23, 1:07:26 p.m.] FelipeSan: ‎image omitted
+[13/05/23, 1:08:52 p.m.] FelipeSan: No se donde sea eso xd
+[13/05/23, 1:10:51 p.m.] Kemonitooo Escom: ‎Missed voice call
+[13/05/23, 1:10:52 p.m.] Kemonitooo Escom: On tas
+[13/05/23, 1:10:59 p.m.] FelipeSan: En el registro
+‎[13/05/23, 1:11:01 p.m.] FelipeSan: ‎sticker omitted
+[13/05/23, 1:11:09 p.m.] Kemonitooo Escom: Pero donde esta xd
+[13/05/23, 1:11:17 p.m.] FelipeSan: Acá en el primer piso
+[13/05/23, 1:11:39 p.m.] Kemonitooo Escom: Salón?
+[13/05/23, 1:11:57 p.m.] FelipeSan: Es en el edifico que está hasta la izquierda
+[13/05/23, 1:14:01 p.m.] Kemonitooo Escom: Creo ya llegue xd
+[13/05/23, 8:41:46 p.m.] FelipeSan: Feliz cumpleaños kemonito
+[13/05/23, 8:41:49 p.m.] FelipeSan: Se me había pasado
+‎[13/05/23, 8:41:52 p.m.] FelipeSan: ‎sticker omitted
+[13/05/23, 8:42:11 p.m.] FelipeSan: Mañana nacen todas las flores
+[13/05/23, 9:22:29 p.m.] Kemonitooo Escom: Jajajajaja
+[13/05/23, 9:22:33 p.m.] Kemonitooo Escom: Muchas gracias pipeeeeeeeeeeee
+‎[13/05/23, 9:23:50 p.m.] Kemonitooo Escom: ‎sticker omitted
+‎[24/05/23, 1:49:55 p.m.] Kemonitooo Escom: PEKAGuía para el segundo examen parcial de Fundamentos.pdf • ‎7 pages ‎document omitted
+[27/05/23, 9:58:02 a.m.] FelipeSan: Cha me cancelaron mi clase de cocinas;’v
+[27/05/23, 9:58:15 a.m.] FelipeSan: Y ya ni fuimos al contess
+[27/05/23, 9:58:24 a.m.] FelipeSan: O fuiste?
+‎[27/05/23, 10:09:52 a.m.] FelipeSan: ‎sticker omitted
+[29/05/23, 9:59:24 a.m.] FelipeSan: Puedo ver tus ejercicios:v de mate?
+[29/05/23, 9:59:46 a.m.] FelipeSan: Los ando haciendo como le entendí al profe pero alch no se si si sea
+[29/05/23, 10:47:55 a.m.] Kemonitooo Escom: Nel, ya iba a ir solo y pues que miedo xd
+[29/05/23, 10:48:06 a.m.] Kemonitooo Escom: Chaaaale pues ya ni mo, pa la otra
+‎[29/05/23, 10:48:29 a.m.] Kemonitooo Escom: Tareas MatesAvanzadas 2P_v2.pdf • ‎16 pages ‎document omitted
+[29/05/23, 5:24:27 p.m.] FelipeSan: Tendrás las 20 de la última
+[29/05/23, 5:24:29 p.m.] FelipeSan: ?
+[29/05/23, 5:24:34 p.m.] FelipeSan: La 20*
+[29/05/23, 7:57:11 p.m.] Kemonitooo Escom: aun no qwq
+‎[29/05/23, 9:13:35 p.m.] Kemonitooo Escom: ‎image omitted
+‎[30/05/23, 6:52:11 p.m.] Kemonitooo Escom: ‎image omitted
+[30/05/23, 7:24:55 p.m.] FelipeSan: Chi
+[22/06/23, 11:18:31 a.m.] FelipeSan: tienes el c de la 6 de proba ;3
+[22/06/23, 11:18:34 a.m.] FelipeSan: ?
+[22/06/23, 11:19:01 a.m.] Kemonitooo Escom: Aun no los inicio qwq
+[22/06/23, 11:19:47 a.m.] FelipeSan: :0
+[22/06/23, 11:28:58 a.m.] FelipeSan: Noma todo lo vimos en la batix:v pero ya ni me acuerdo
+[22/06/23, 11:29:06 a.m.] FelipeSan: Voy a esperar a que filtren el examen
+‎[22/06/23, 11:29:28 a.m.] FelipeSan: ‎sticker omitted
+[22/06/23, 3:15:08 p.m.] Kemonitooo Escom: Uuufff lo riko xd
+[22/06/23, 7:44:21 p.m.] FelipeSan: Nouuu
+[22/06/23, 7:44:26 p.m.] FelipeSan: Que esta vez no se filtro
+‎[22/06/23, 7:44:29 p.m.] FelipeSan: ‎sticker omitted
+[22/06/23, 9:19:01 p.m.] FelipeSan: Tienes las respuestas del examen 🥺?
+[22/06/23, 9:28:44 p.m.] Kemonitooo Escom: aun no pipe unu
+[22/06/23, 9:57:12 p.m.] FelipeSan: Mouuu
+‎[21/07/23, 8:25:19 a.m.] FelipeSan: 2024-ICPC Gran Premio de Mexico-PLACE.pdf • ‎1 page ‎document omitted
+[21/07/23, 8:25:20 a.m.] FelipeSan: xd en la pagina tambn dice q hay problemas con los datos de alguno
+[21/07/23, 8:25:20 a.m.] FelipeSan: namas q los actualice y ya
+[22/07/23, 3:07:44 p.m.] Kemonitooo Escom: Vaa, lo checo xd
+[29/08/23, 8:39:18 p.m.] FelipeSan: vete alv el sabado voy a hacer un tiramisus
+[29/08/23, 8:39:25 p.m.] FelipeSan: a mi me mama el tiramisussss
+[29/08/23, 8:39:27 p.m.] FelipeSan: xd
+[29/08/23, 8:42:36 p.m.] Kemonitooo Escom: No digas eso pipe jajaja
+[31/08/23, 7:49:36 p.m.] FelipeSan: https://neetcode.io/roadmap
+[31/08/23, 7:49:42 p.m.] FelipeSan: toma pa q practique mi kemonito
+[31/08/23, 7:50:36 p.m.] FelipeSan: y tome pa hacer lo de teoria
+[31/08/23, 7:50:37 p.m.] FelipeSan: https://leetcode.com/problems/number-of-1-bits/
+[21/09/23, 9:22:05 p.m.] FelipeSan: xd
+[21/09/23, 9:22:09 p.m.] FelipeSan: Ya ni hablamos
+[21/09/23, 9:22:10 p.m.] FelipeSan: JAJA
+‎[21/09/23, 9:22:13 p.m.] FelipeSan: ‎sticker omitted
+[21/09/23, 9:42:30 p.m.] FelipeSan: Que tal:
+[21/09/23, 9:46:21 p.m.] FelipeSan: Asistente para Escribir un Diario
+
+Descripción:
+Este asistente de procesamiento de lenguaje natural (NLP) está diseñado para ayudar a las personas a escribir un diario de sus experiencias diarias. Su función principal es capturar y registrar los eventos y pensamientos que una persona desea documentar en su vida diaria.
+
+Además si la persona en cuestión llegara a fallecer, poder replicar de cierta forma las ideas que dejó plasmadas en el diario para poder despedirse de las personas cercanas a la persona.
+[21/09/23, 9:47:50 p.m.] FelipeSan: Asistente para Escribir un Diario
+
+Descripción:
+Este asistente de procesamiento de lenguaje natural (NLP) está diseñado para ayudar a las personas a escribir un diario de sus experiencias diarias. Su función principal es capturar y registrar los eventos y pensamientos que una persona desea documentar en su vida diaria.
+
+Además si la persona en cuestión llegara a fallecer, poder replicar de cierta forma las ideas que dejó plasmadas en el diario para poder despedirse de las personas cercanas a la persona.
+
+Kevin 
+Felipe
+[21/09/23, 9:47:53 p.m.] FelipeSan: xd
+[21/09/23, 9:49:58 p.m.] FelipeSan: Asistente para Escribir un Diario
+
+Descripción:
+Este asistente de procesamiento de lenguaje natural (NLP) está diseñado para ayudar a las personas a escribir un diario de sus experiencias diarias. Su función principal es capturar y registrar los eventos y pensamientos que una persona desea documentar en su vida diaria.
+
+Además si la persona en cuestión llegara a fallecer, poder replicar de cierta forma las ideas que dejó plasmadas en el diario para poder despedirse de las personas cercanas a la persona.
+
+
+Palacios Elizondo Kevin Antonio 
+Sánchez Martínez Felipe
+[21/09/23, 9:51:47 p.m.] Kemonitooo Escom: aaaaa si, perdoname, me quede dormido u.u
+[21/09/23, 9:52:55 p.m.] FelipeSan: le cambio algo?
+[21/09/23, 9:53:08 p.m.] Kemonitooo Escom: Lo de diario de sus experiencias diarias suena medio redundante
+[21/09/23, 9:53:10 p.m.] FelipeSan: o mira asi lo envio y ya l;uego vemos
+[21/09/23, 9:53:17 p.m.] FelipeSan: xd
+[21/09/23, 9:53:20 p.m.] FelipeSan: lo hizo chat
+[21/09/23, 9:53:28 p.m.] Kemonitooo Escom: Aja, podria ser, ya el lunes le preguntamos
+[21/09/23, 9:53:36 p.m.] Kemonitooo Escom: Si pense jajaja
+[21/09/23, 9:53:42 p.m.] FelipeSan: jaja
+[21/09/23, 9:53:58 p.m.] Kemonitooo Escom: Pero si, yo creo asi owo
+[21/09/23, 9:54:32 p.m.] Kemonitooo Escom: Lo hacemos en un canvas?
+[21/09/23, 9:54:55 p.m.] Kemonitooo Escom: O nomas un texto en word?
+‎[21/09/23, 9:54:56 p.m.] FelipeSan: Kevin_Felipe_TLN.pdf • ‎3 pages ‎document omitted
+[21/09/23, 9:55:02 p.m.] FelipeSan: ya lo iba a enviar aaa
+[21/09/23, 9:55:32 p.m.] FelipeSan: xd
+[21/09/23, 9:55:33 p.m.] Kemonitooo Escom: Aaaaa perro
+[21/09/23, 9:55:36 p.m.] Kemonitooo Escom: Pues va
+[21/09/23, 9:55:40 p.m.] Kemonitooo Escom: Mushas gracias pipeeeee
+[21/09/23, 9:55:57 p.m.] FelipeSan: Está bn de la vrg la descripción pero xd
+[21/09/23, 9:56:12 p.m.] Kemonitooo Escom: Si jajaja, pero es lo de menos, lo importante es que jale chido
+[27/09/23, 1:06:15 p.m.] FelipeSan: https://arxiv.org/pdf/1706.03762.pdf
+[27/09/23, 1:06:15 p.m.] FelipeSan: https://arxiv.org/pdf/2203.02155.pdf
+[09/10/23, 9:11:00 p.m.] FelipeSan: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/docs/00_tensorflow_fundamentals.ipynb'
+[09/10/23, 9:11:23 p.m.] FelipeSan: ya le entendi al tnsors
+[09/10/23, 9:11:51 p.m.] FelipeSan: solo es como una matriz en de matricez
+‎[09/10/23, 10:06:15 p.m.] FelipeSan: ‎image omitted
+‎[09/10/23, 10:06:16 p.m.] FelipeSan: ‎image omitted
+‎[09/10/23, 10:06:16 p.m.] FelipeSan: ‎image omitted
+‎[09/10/23, 10:06:17 p.m.] FelipeSan: ‎image omitted
+[11/10/23, 12:13:46 p.m.] Kemonitooo Escom: \documentclass[11pt, oneside]{article} 
+
+\usepackage{graphicx,times,amsmath,colortbl, psfrag} % Add all your packages here
+
+\usepackage[ruled, vlined, english, boxed, linesnumbered, lined]{algorithm2e}
+
+\usepackage{algpseudocode} 
+
+\usepackage{multirow}
+
+\usepackage {amsfonts}
+\usepackage {amsmath}
+
+
+\hoffset=-12pt
+\marginparsep=30pt                        
+\pagestyle{plain}
+\textwidth 7.0in
+\textheight 9.0in
+\topmargin -0.8in
+\oddsidemargin 0in
+\evensidemargin 0in
+
+\begin{document}
+	
+	\title{\textbf{Pr\'actica 1. ``Introducción a la optimización en espacios continuos''}\\
+		{\normalsize
+			Dra. Miriam Pescador Rojas\\
+			Departamento de Ciencias e Ingeniería de la Computación\\
+			Algoritmos bioinspirados, ESCOM- IPN\\
+			
+			Alumnos:\\
+			Martínez Cadena Gustavo\\
+			Palacios Elizondo Kevin Antonio
+	}}
+	
+	\date{15 de septiembre 2023}
+	% make the title area
+	\maketitle
+	\section{Introdución.}
+	
+	Un problema de optimización busca la mejor solución factible para maximizar o minimizar una función, sujeta a ciertas restricciones. Por ejemplo, es posible  maximizar el beneficio de una empresa eligiendo una cantidad adecuada de productos para producir, o minimizar el costo de construcción de una estructura eligiendo adecuadamente los materiales y las dimensiones.
+	
+	Matemáticamente, el problema de optimización se define de la siguiente manera:
+	
+	\begin{equation}
+		\begin{aligned}
+			& \text{Encontrar } & & \vec{x} = \{x_1, x_2, \ldots, x_n\} \text{  que } \\
+			& {\text{maximice (o minimice)}} & & f(x) \\
+			& \text{sujeto a} & & g_i(x) \leq b_i, \; i = 1, \ldots, m \\
+			& & & h_j(x) = c_j, \; j = 1, \ldots, p
+		\end{aligned}
+	\end{equation}
+	
+	Donde:
+	\begin{itemize}
+		\item $f(x)$ es la función objetivo que se desea maximizar o minimizar.
+		\item $x$ es el vector de variables de decisión.
+		\item $g_i(x)$ son las funciones de restricción de desigualdad.
+		\item $h_i(x)$ son las funciones de restricción de igualdad.
+		\item $m$ es el número d erestricciones de desigualdad.
+		\item $p$ es el número de restricciones de igualdad.
+	\end{itemize}
+	
+	En el proceso de optimización, debe diferenciarse los conceptos de  óptimo global y óptimos locales basándose en la definición de un vecindario. Es decir, un óptimo local es un punto en el cual la función objetivo toma un valor extremo (máximo o mínimo) en comparación con puntos cercanos en su \textit{vecindad}. No necesariamente es el valor extremo más alto o más bajo en todo el dominio de la función, sino solo en una determinada región. Pueden existir varios óptimos locales para una función.
+	Por otro lado, un óptimo global, es el punto en el cual la función objetivo toma su valor extremo (máximo o mínimo) en todo su dominio. Se trata del \textit{mejor} valor posible de la función.
+	Dependiendo de la función, puede existir un único óptimo global o múltiples puntos que alcancen ese valor extremo global (\textit{multimodalidad}).\\
+	
+	Una de las dificultades en un problema de optimización, especialmente cuando se usan técnicas heurísticas o métodos de búsqueda local, es la posibilidad de quedar \textit{atrapado} en un óptimo local sin alcanzar el óptimo global. 
+	
+	En esta práctica estudiaremos, los métodos de búsqueda para funciones de una variable,, los cuales requieren de dos fases: 
+	\begin{enumerate}
+		\item \textbf{Fase de acotamiento}. Se realiza una búsqueda inicial de grano grueso para acotar el óptimo.
+		
+		\item \textbf{Fase de refinamiento del intervalo}. Se realiza una secuencia finita de reducciones de intervalo o refinamientos para reducir el intervalo inicial de búsqueda a una cierta precisión deseable.
+	\end{enumerate}
+	
+	\section{Objetivo.} 
+	El objetivo de esta práctica es que el alumno entienda los conceptos básicos de optimización. La definición de funciones matemáticas en espacios continuos, así como el efecto de la búsqueda de soluciones óptimas para funciones mono y multimodales.
+	
+	
+	\section{Consignas}
+	Para entender los conceptos de optimización en funciones de prueba clásicas, el estudiante probará la implementación de los métodos de búsqueda exhaustiva y división por intervalos y los probará en diferentes funciones de una sola variable. 
+	
+	\subsection{Búsqueda exhaustiva}
+	La búsqueda exhaustiva en espacios continuos requiere técnicas de discretización para encontrar el óptimo global de una función.
+	Este método es el más simple de los métodos de búsqueda, usa puntos igualmente espaciados e inicia su búsqueda desde el extremo izquierdo del dominio de la función.
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{algBusquedaExhaustiva}
+		\caption{Búsqueda exhaustiva}
+		\label{exahustiva}
+	\end{figure}
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{figExahustiva}
+		\caption{Proceso de búsqueda exhaustiva}
+		\label{exahustiva2}
+	\end{figure}
+	
+	\newpage
+	\subsection{Método de división por intervalos}
+	En este método de eliminación de regiones se consideran valores en tres puntos diferentes (espaciados de forma equidistante) y se borra exactamente una mitad del intervalo a cada iteración.
+	
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{algDivisionIntervalos}
+		\caption{Metodo de división por intervalos}
+		\label{intervalos}
+	\end{figure}
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{figIntervalos}
+		\caption{Proceso de búsqueda por división de intervalos}
+		\label{intervalos2}
+	\end{figure}
+	
+	Para probar los dos métodos descritos, puede emplear el código proporcionado en python con colab. En este código aparecen 6 funciones de prueba con diferentes características. 
+	\begin{verbatim}
+		https://colab.research.google.com/drive/1oEiFDVr7_ts_7I5ozVnu4pFF7F4HgaNX?usp=sharing
+		
+	\end{verbatim}
+	
+	\subsection{Experimentos y resultados}
+	Deberá ejecutar los dos algoritmos y reportar para los casos de prueba de la siguiente tabla. 
+	
+	
+	% Please add the following required packages to your document preamble:
+	% \usepackage{multirow}
+	\begin{table}[!ht]
+		\caption{Resultados de pruebas con diferentes valores en los métodos de búsqueda del óptimo global}
+		
+		\begin{tabular}{|l|l|l|l|l|l|l|}
+			\hline
+			\textbf{Función}     & \textbf{B. exhaustiva (n)} & \textbf{solución} & \textbf{iteraciones} & \textbf{Div por intervalos (eps)} & \textbf{solución} & \textbf{iteraciones} \\ \hline
+			\multirow{4}{*}{1}   &10&(-0.6000, -0.2000)&3&0.1&(-0.5000, -0.4375)&5
+			\\ \cline{2-7} 
+			&100&(-0.5000, -0.4600)&26&0.01&(-0.4844, -0.4766)&8                      
+			\\ \cline{2-7} 
+			&1000&(-0.4820, -0.4780)&260&0.001&(-0.4814, -0.4805)&11
+			
+			\\ \cline{2-7} 
+			&10000&(-0.4810, -0.4806)&2596&0.0001&(-0.4809, -0.4808)&15
+			\\ \hline
+			\multirow{4}{*}{2}   
+			&10&(2.0000, 6.0000)&7&0.1&(3.5547, 3.6328)&8
+			\\ \cline{2-7}
+			&100&(3.4000, 3.8000)&68&0.01&(3.5742, 3.5840)&11
+			\\ \cline{2-7} 
+			&1000&(3.5600, 3.6000)&679&0.001&(3.5788, 3.5794)&15
+			\\ \cline{2-7} 
+			&10000&(3.5780, 3.5820)&6790&0.0001&(3.5792, 3.5793)&18
+			\\ \hline
+			\multirow{4}{*}{3}
+			&10&(-0.2000, 0.2000)&5&0.1&(-0.0625, 0.0000)&5
+			\\ \cline{2-7} 
+			&100&(-0.0400, 0.0000)&49&0.01&(-0.0078, 0.0000)&8
+			\\ \cline{2-7} 
+			&1000&(-0.0040, 0.0000)&499&0.001&(-0.0010, 0.0000)&11
+			\\ \cline{2-7} 
+			&10000&(-0.0002, 0.0002)&5000&0.0001&(-0.0001, 0.0000)&15
+			\\ \hline
+			\multirow{4}{*}{4} 
+			&10&(0.0000, 2.0000)&6&0.1&(0.7031, 0.7812)&7
+			\\ \cline{2-7} 
+			&100&(0.7000, 0.9000)&58&0.01&(0.7471, 0.7568)&10
+			\\ \cline{2-7} 
+			&1000&(0.7400, 0.7600)&575&0.001&(0.7498, 0.7504)&14
+			\\ \cline{2-7} 
+			&10000&(0.7490, 0.7510)&5750&0.0001&(0.7500, 0.7500)&17
+			\\ \hline
+			\multirow{4}{*}{5}
+			&10&(0.2000, 0.6000)&7&0.1&(0.4062, 0.4688)&5
+			\\ \cline{2-7} 
+			&100&(0.4400, 0.4800)&73&0.01&(0.4453, 0.4531)&8
+			\\ \cline{2-7} 
+			&1000&(0.4480, 0.4520)&725&0.001&(0.4502, 0.4512)&11
+			\\ \cline{2-7} 
+			&10000&(0.4504, 0.4508)&7253&0.0001&(0.4507, 0.4507)&15
+			\\ \hline
+			\multirow{4}{*}{6}   
+			&10&(-0.6000, 1.6000)&5&0.1&(-5.0000, -4.9141)&7
+			\\ \cline{2-7} 
+			&100&(0.5000, 0.7200)&51&0.01&(-5.0000, -4.9946)&11
+			\\ \cline{2-7} 
+			&1000&(0.5990, 0.6210)&510&0.001&(-5.0000, -4.9993)&14
+			\\ \cline{2-7} 
+			&10000&(0.6100, 0.6122)&5101&0.0001&(-5.0000, -4.9999)&17
+			\\ \hline
+		\end{tabular}
+	\end{table}
+	
+	
+	
+	
+	Para búsqueda exhaustiva se requiere que el parámetro $n$ sea igual a $\{10, 100, 1000, 10000\}$, mientras que para el método de división por intervalos la variable $eps = \{0.1, 0.01, 0.001, 0.0001\}$.
+	
+	\subsection{Discusión de resultados}
+	Para realizar un análisis del comportamiento de los dos algoritmos, de respuesta a las siguientes preguntas:
+	
+	\begin{enumerate}
+		\item ¿Qué efecto tiene aumentar el valor de $n$?\\
+		Al aumentar, se obtiene una mayor precisión en el intervalo solución.
+		\item ¿Qué relación tienen $n$ y el número de iteraciones?\\
+		Entre más crezca $n$, más crecerá el número de iteraciones.
+		\item ¿Qué ocurre si se tienen multiples mínimos locales?\\
+		Se obtiene el primero y se ignoran los posteriores.
+		\item ¿Se puede mejorar el método anterior?\\
+		Sí.
+		\item ¿Cuál es la complejidad del algoritmo?\\
+		Lineal.
+		\item ¿Qué efecto tiene el parámetro eps en la solución encontrada?\\
+		Al disminuir, se obtiene una mayor precisión en el intervalo solución.
+		\item ¿Qué relación tienen eps  y el número de iteraciones?\\
+		Mientras más decrezca eps, el número de iteraciones aumenta, sin embargo, crece más lento que el método anterior.
+		\item ¿Qué ocurre si se tienen multiples mínimos locales?\\
+		Al igual que con el método de búsqueda exhaustiva, se obtiene el primero y se ignoran los posteriores.
+		\item ¿Se puede mejorar el método anterior?\\
+		Sí.
+		\item ¿Cuál es la complejidad del algoritmo?\\
+		Lineal.
+		\item ¿Qué tan eficiente es este algoritmo respecto al de búsqueda exhaustiva?\\
+		Mucho más eficiente, pues hace menos iteraciones y crece a un ritmo menor.
+		\item ¿Cuáles son las mejoras que aplicaría a cada método y por qué?\\
+		Para asegurar encontrar el mínimo en el intervalo dado, se podría recorrer tóda la función dentro de los límites, posteriormente, buscar los mínimos y por último, encontrar el menor de ellos. Sin embargo, este nuevo método tomaría más tiempo y costo computacional
+		
+	\end{enumerate}
+	
+	
+	\subsection{Funciones de prueba}
+	Implemente las siguientes funciones de prueba, para cualquier número de variables ($n$).
+	\begin{itemize}
+		\item Ackley
+		\item Rosenbrock
+		\item Rastrigin
+		\item Griewangk
+	\end{itemize}
+	
+	Consulte el documento proporcionado (FuncionesPrueba.pdf).
+	
+	Realice pruebas, evaluando el valor óptimo $(x^*)$. 
+	
+	\newpage
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{1}
+		\caption{Gráfica función Acley}
+		\label{intervalos}
+	\end{figure}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{2}
+		\caption{Gráfica función Rosenbrock}
+		\label{intervalos}
+	\end{figure}
+	\newpage
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{3}
+		\caption{Gráfica función Rastrigin}
+		\label{intervalos}
+	\end{figure}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.6]{4}
+		\caption{Gráfica función Griewangk}
+		\label{intervalos}
+	\end{figure}
+	\subsection{Análisis de lectura}
+	Lea el artículo con la definición de heurísticas y metaheurísticas y realice un resumen, enfatizado la diferencia entre uno y otro.\\ 
+	
+	
+	
+	Usualmente, cuando es sencillo conocer todas las soluciones a un problema dado, el problema se vuelve uno de búsqueda por aquella solución que sea óptima en términos de máximos y mínimos, no obstante, hay problemas que son sumamente complicados de modelar, para posteriormente hallar su solución óptima exacta usando los recursos mínimos. Es entonces que surge el desarrollo de algoritmos que se aproximan a la mejor solución con el mejor coste usando técnicas heurísticas y metaheurísticas.
+	Esencialmente, tanto la heurística como la metaheurística buscan procedimientos óptimos para determinados problemas, pero difieren en el enfoque, porque el primero se centra en problemas específicos, mientras que el segundo se queda en la generalidad.
+	Desde su concepción, la metaheurística surge como un apoyo sobre el que la heurística se puede desarrollar, ya que hay ocasiones en la que los métodos heurísticos clásicos no son lo suficientemente efectivos. Formalizando lo anterior, se podría decir que la metaheurística busca diseñar técnicas para crear o mejorar los procedimientos heurísticos, mientras que la heurística busca dar soluciones que se aproximen a la óptima, dado que las soluciones exactas suelen ser muy costosas o inviables computacionalmente.
+	Como ya se mencionó, la heurística trabaja sobre problemas exactos y la metaheurística en las generalidades, esto se debe a que el primero debe contemplar únicamente los factores procesados por el razonamiento, y que sean inherentes al problema, y el segundo se apega a un marco general (pasando por ramas como la inteligencia artificial, genética, o biología) que le permita combinar diferentes conceptos para crear algoritmos híbridos. 
+	Otra de sus grandes diferencias está presente en sus formas de trabajo. La metaheurística por su parte suele atender a enfoques inspirados en ciertas disciplinas o fenómenos, como el evolutivo, en la física o biología, etc., siempre y cuando se adapte al tipo de heurística que se planea crear o mejorar, y la heurística tiende a descomponer o reducir su problema inicial para su fácil tratamiento. Lo vemos por ejemplo en el método de descomposición, donde se divide en subproblemas más sencillos; inductivo, al generalizar propiedades o técnicas fáciles para aplicarlas al problema general; o reducción, donde se identifican las propiedades mayoritariamente “buenas” para restringir el espacio.
+	\\
+	
+	
+	Esta práctica puede elaborarse en forma individual o por parejas, 
+	La fecha l\'imite de entrega sin penalizaci\'on es el \textbf{viernes 15 de septiembre a las 11:00 pm}. Solo envía uno de los integrantes del equipo a través de la plataforma de Microsoft Teams, el archivo PDF con el reporte solicitado. Nombrar al archivo con los apellidos de cada integrante, por ejemplo: SosaHernandez\_RojasMartinez.pdf
+	Sí la práctica se envía después de la fecha y hora límite, habrá penalización de 10\% sobre la calificaci\'on obtenido por cada d\'ia de retraso (los fines de semana no cuentan). 
+	
+\end{document}
+[11/10/23, 12:19:16 p.m.] FelipeSan: https://www.overleaf.com/3374967692wswwrdctfncz
+[12/10/23, 10:58:44 a.m.] FelipeSan: Quieres ir al chelaton
+[12/10/23, 11:03:20 a.m.] FelipeSan: Con emi y yo
+[12/10/23, 12:29:35 p.m.] Kemonitooo Escom: Simoooon
+[12/10/23, 12:29:36 p.m.] Kemonitooo Escom: Vamos
+‎[12/10/23, 12:30:05 p.m.] Kemonitooo Escom: ‎sticker omitted
+‎[16/10/23, 1:40:07 p.m.] FelipeSan: ‎image omitted
+‎[16/10/23, 1:40:07 p.m.] FelipeSan: ‎image omitted
+‎[16/10/23, 1:40:08 p.m.] FelipeSan: ‎image omitted
+[16/10/23, 7:07:42 p.m.] Kemonitooo Escom: gracias pipeeeee
+[16/10/23, 8:02:30 p.m.] FelipeSan: manana no hay bioinspirados verda
+[16/10/23, 9:14:13 p.m.] Kemonitooo Escom: Nel, ni felix
+[19/10/23, 11:25:19 a.m.] FelipeSan: Si te reviso? xd
+[19/10/23, 11:45:11 a.m.] Kemonitooo Escom: Neo
+[19/10/23, 11:46:04 a.m.] Kemonitooo Escom: Andamos esperando a que salga el primero
+[19/10/23, 12:04:57 p.m.] FelipeSan: Y ahora?
+[19/10/23, 3:24:06 p.m.] Kemonitooo Escom: Pues en teoría nosotros seremos los primeros el lunes
+[19/10/23, 3:24:07 p.m.] Kemonitooo Escom: Y que a lo mejor namas revisa a 1 o 2
+[19/10/23, 3:24:07 p.m.] Kemonitooo Escom: Por que tiene su cosa en el auditorio
+‎[19/10/23, 6:35:00 p.m.] FelipeSan: ‎sticker omitted
+[19/10/23, 6:35:11 p.m.] FelipeSan: A mimir el lunes tons
+[19/10/23, 7:49:07 p.m.] Kemonitooo Escom: Yes yes yes
+[25/10/23, 12:31:55 p.m.] FelipeSan: te fuiste??
+[25/10/23, 12:31:55 p.m.] FelipeSan: ;v
+[25/10/23, 12:35:24 p.m.] FelipeSan: De aqui al lunes es presentar proyectos...
+[25/10/23, 12:35:28 p.m.] FelipeSan: ;v
+[25/10/23, 1:02:41 p.m.] Kemonitooo Escom: No gui xd
+[25/10/23, 1:02:44 p.m.] Kemonitooo Escom: Fui
+[25/10/23, 1:03:03 p.m.] Kemonitooo Escom: Sis, la presentación de 5 min no?
+[25/10/23, 1:04:15 p.m.] FelipeSan: Si
+[25/10/23, 1:04:21 p.m.] FelipeSan: a
+‎[25/10/23, 5:25:37 p.m.] FelipeSan: ‎image omitted
+‎[25/10/23, 6:41:01 p.m.] Kemonitooo Escom: PALACIOS_ELIZONDO_KEVIN_ANTONIO_CREDENCIAL.pdf • ‎1 page ‎document omitted
+‎[02/11/23, 4:42:17 p.m.] Kemonitooo Escom: ‎image omitted
+[02/11/23, 6:32:20 p.m.] FelipeSan: Ahuevo
+[02/11/23, 7:50:43 p.m.] FelipeSan: https://chat.openai.com/share/3864f439-5517-449e-bae1-7ecca5572dd4
+[02/11/23, 7:51:07 p.m.] FelipeSan: Ahi puse la propuesta y ve metiendo tus datos uwu
